@@ -1,6 +1,8 @@
 FROM ubuntu:24.04
 
 WORKDIR /app
+EXPOSE 5001
+
 COPY . .
 RUN apt update && apt install -y curl
 
