@@ -1,0 +1,3 @@
+docker pull amazoncorretto:8-jdk
+docker build -t 1_11 .
+docker run -p 127.0.0.1:8080:8080 1_11
