@@ -1,0 +1,2 @@
+docker build -t 1_12 .
+docker run -p 127.0.0.1:5001:5001 1_12
